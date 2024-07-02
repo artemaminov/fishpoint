@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Сертификат</title>
     <style>
         @media screen {
@@ -24,13 +26,13 @@
     </style>
 </head>
 
-<body style="background-color: #FFFDFA; margin: 0;">
-    <div class="wrapper" style="width: 100%;">
-        <table class="certificate__main"
+<body style="margin: 0; padding: 0; background-color: #FFFDFA;">
+    <center class="wrapper" style="width: 100%;">
+        <table class="certificate__main" border="0" cellpadding="0" cellspacing="0"
             style="margin: 2em auto; width: 100%; max-width: 600px; border-spacing: 0; table-layout: fixed;">
             <tr>
                 <td>
-                    <table class="certificate__header" style="width: 100%;">
+                    <table class="certificate__header" style="width: 100%;" cellpadding="0" cellspacing="0" border="0">
 
                         <colgroup>
                             <col span="1" style="width: 38%;">
@@ -40,7 +42,7 @@
 
                         <tr>
                             <td style="vertical-align: top;">
-                                <table style="width: 100%;">
+                                <table style="width: 100%;" cellpadding="0" cellspacing="0" border="0">
                                     <tr>
                                         <td>
                                             <div class="certificate__link" style="">
@@ -67,7 +69,7 @@
                             </td>
 
                             <td style="text-align: end; vertical-align: top;">
-                                <table style="width: 100%;">
+                                <table style="width: 100%;" cellpadding="0" cellspacing="0" border="0">
                                     <tr>
                                         <td>
                                             <div class="certificate__id" style="font-family: 'GillSansC';">номер:
@@ -83,59 +85,58 @@
                                     </tr>
                                 </table>
                             </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="certificate__content" style="text-align: center;">
+                        <div class="certificatet__title"
+                            style="padding: 2rem 0 2rem; font-family: 'Ramillas'; font-size: 4em; line-height: 1em;">
+                            Подарочный сертификат</div>
+                        <div class="certificate__amount-title" style="font-family: 'GillSansC'; color: #BB9C64;">на
+                            сумму</div>
+                        <div class="certificate__amount"
+                            style="font-family: 'GillSansC'; font-size: 2em; color: #BB9C64; padding: 0 0 2rem;">
+                            <i style="font-style: normal;" id="certificate_amount">10000</i> рублей
+                        </div>
+                        <div class="certificate__qr" id="certificate_qr">
+                            <img src="assets/images/qr.svg" alt="QR-Код" style="width: 10em; height: 10em;">
+                        </div>
+                        <div class="certificate__date"
+                            style="font-family: 'Ramillas'; font-size: 1.1em; padding: 2rem 0 0;">дата:
+                            <i style="font-style: normal;" id="certificate_date">13.05.1981</i>
+                        </div>
+                        <div class="certificate__date-info"
+                            style="font-family: 'Ramillas'; font-size:0.8em; padding: 0 0 2rem;">срок
+                            действия 1 год</div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="certificate__footer" style="border-top: 1px solid #BB9C64;">
+                        <p style="font-family: 'GillSansC'; font-size: 0.8em; text-align: justify;">Подарочный
+                            сертификат
+                            предоставляет право
+                            на получение
+                            товаров и услуг в ресторанах:
+                            <strong>Fish
+                                Point</strong>, <strong>proKavkaz</strong> и <strong>«ЗАгород»</strong> и может быть
+                            использован
+                            единоразово. Обмен, возврат и выплата неиспользованных денежных средств владельцу
+                            cертификата не
+                            производится.
+                        </p>
+                    </div>
                 </td>
             </tr>
 
         </table>
-        </td>
-        </tr>
-
-        <tr>
-            <td>
-                <div class="certificate__content" style="text-align: center;">
-                    <div class="certificatet__title"
-                        style="padding: 2rem 0 2rem; font-family: 'Ramillas'; font-size: 4em; line-height: 1em;">
-                        Подарочный сертификат</div>
-                    <div class="certificate__amount-title" style="font-family: 'GillSansC'; color: #BB9C64;">на
-                        сумму</div>
-                    <div class="certificate__amount"
-                        style="font-family: 'GillSansC'; font-size: 2em; color: #BB9C64; padding: 0 0 2rem;">
-                        <i style="font-style: normal;" id="certificate_amount">10000</i> рублей
-                    </div>
-                    <div class="certificate__qr" id="certificate_qr">
-                        <img src="assets/images/qr.svg" alt="QR-Код" style="width: 10em; height: 10em;">
-                    </div>
-                    <div class="certificate__date"
-                        style="font-family: 'Ramillas'; font-size: 1.1em; padding: 2rem 0 0;">дата:
-                        <i style="font-style: normal;" id="certificate_date">13.05.1981</i>
-                    </div>
-                    <div class="certificate__date-info"
-                        style="font-family: 'Ramillas'; font-size:0.8em; padding: 0 0 2rem;">срок
-                        действия 1 год</div>
-                </div>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <div class="certificate__footer" style="border-top: 1px solid #BB9C64;">
-                    <p style="font-family: 'GillSansC'; font-size: 0.8em; text-align: justify;">Подарочный сертификат
-                        предоставляет право
-                        на получение
-                        товаров и услуг в ресторанах:
-                        <strong>Fish
-                            Point</strong>, <strong>proKavkaz</strong> и <strong>«ЗАгород»</strong> и может быть
-                        использован
-                        единоразово. Обмен, возврат и выплата неиспользованных денежных средств владельцу
-                        cертификата не
-                        производится.
-                    </p>
-                </div>
-            </td>
-        </tr>
-
-        </table>
-    </div>
+    </center>
 </body>
 
 </html>
